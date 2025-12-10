@@ -1,0 +1,15 @@
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header hr {
+    border: 1px solid #000;
+}
