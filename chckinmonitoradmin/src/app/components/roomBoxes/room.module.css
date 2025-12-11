@@ -1,0 +1,20 @@
+.room {
+    color: white;
+    background-color: #1E2C30;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40vw;
+    height: 125px;
+}
+
+.room div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
