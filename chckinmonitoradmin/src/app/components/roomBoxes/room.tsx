@@ -1,5 +1,6 @@
 import styles from "./room.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 interface RoomProps {
     name: string;
@@ -14,7 +15,7 @@ export default function Room({ name, capacity, currentOccupancy }: RoomProps) {
                 <h2>{name}</h2>
                 <p>{currentOccupancy} / {capacity}</p>
             </div>
-            <Image src={"/more.png"} width={50} height={50} alt="More"></Image>
+            <Link href={`/${name}`}><Image src={"/more.png"} width={50} height={50} alt="More" /></Link>
         </div>
     );
 }

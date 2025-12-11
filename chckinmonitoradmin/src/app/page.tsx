@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "./components/header/header";
 import Room from "./components/roomBoxes/room";
@@ -27,8 +26,6 @@ export default function Home() {
   ];
 
   const [isAddRoomVisible, setIsAddRoomVisible] = useState(false);
-  const [name, setName] = useState("");
-  const [capacity, setCapacity] = useState(0);
 
   return (
     <div className={styles.page}>
